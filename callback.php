@@ -7,9 +7,9 @@
   $storage = new StorageClass();
 
   $provider = new \League\OAuth2\Client\Provider\GenericProvider([
-    'clientId'                => '__YOUR_CLIENT_ID__',
-    'clientSecret'            => '__YOUR_CLIENT_SECRET__',
-    'redirectUri'             => 'http://localhost:8888/xero-php-oauth2-starter/callback.php',
+    'clientId'                => 'A373D6E11822480488D5E18E1FCACE0F',
+    'clientSecret'            => '8s8Jxth_x5znVadQbN3gfGdAlHsiHyIyIOLEAwnkPzzG5-SS',
+    'redirectUri'             => 'http://localhost/xero-php-oauth2-starter/callback.php',
     'urlAuthorize'            => 'https://login.xero.com/identity/connect/authorize',
     'urlAccessToken'          => 'https://identity.xero.com/connect/token',
     'urlResourceOwnerDetails' => 'https://api.xero.com/api.xro/2.0/Organisation'

@@ -12,9 +12,9 @@
 
   if ($storage->getHasExpired()) {
     $provider = new \League\OAuth2\Client\Provider\GenericProvider([
-      'clientId'                => '__YOUR_CLIENT_ID__',
-      'clientSecret'            => '__YOUR_CLIENT_SECRET__',
-      'redirectUri'             => 'http://localhost:8888/xero-php-oauth2-starter/callback.php',
+      'clientId'                => 'A373D6E11822480488D5E18E1FCACE0F',
+      'clientSecret'            => '8s8Jxth_x5znVadQbN3gfGdAlHsiHyIyIOLEAwnkPzzG5',
+      'redirectUri'             => 'http://localhost/xero-php-oauth2-starter/callback.php',
       'urlAuthorize'            => 'https://login.xero.com/identity/connect/authorize',
       'urlAccessToken'          => 'https://identity.xero.com/connect/token',
       'urlResourceOwnerDetails' => 'https://api.xero.com/api.xro/2.0/Organisation'
@@ -187,7 +187,7 @@
             <li><a href="authorizedResource.php?action=3">Get Invoice with Filters</a></li>
             <li><a href="authorizedResource.php?action=4">Create multiple contacts and summarizeErrors</a></li>
             <li><a href="authorizedResource.php?action=5">Get Contact with Filters</a></li>
-            <li><a href="authorizedResource.php?action=6">Get JWT Claims</a></li>
+            <li><a href="invoices.php">Create Invoice</a></li>
         </ul>
         <div>
         <?php

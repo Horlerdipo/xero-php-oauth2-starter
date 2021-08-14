@@ -4,7 +4,8 @@
     "type": "project",
     "require": {
         "xeroapi/xero-php-oauth2": "2.5.4",
-        "monolog/monolog": "1.0"
+        "monolog/monolog": "1.0",
+        "filp/whoops": "^2.14"
     },
     "license": "MIT",
     "authors": [
